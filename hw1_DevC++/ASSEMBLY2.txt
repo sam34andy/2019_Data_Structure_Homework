@@ -1,0 +1,8 @@
+0x110	li R1,0
+0x114	li R2,2
+0x118	li R4,0
+Loop:
+0x11C	beq R1,R2,End
+0x120	subi R2,R2,1
+0x128	j Loop
+End:
